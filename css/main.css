@@ -1,25 +1,38 @@
+html {
+  box-sizing: border-box; }
+
 * {
-  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  padding: 0; }
+  box-sizing: inherit; }
 
 body {
   width: 1451.5px;
-  height: 800px; }
+  height: 800px;
+  padding-left: 165px; }
 
 .container {
-  border: 1px solid black;
   display: grid;
+  border: 1px solid black;
+  width: inherit;
   grid-template-columns: 445px 220px 610px;
   grid-template-rows: 800px;
-  margin-left: 165px; }
+  margin-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 11.5px;
+  padding-left: 0; }
 
 .left {
-  grid-column: 1/2;
-  background: url("/images/bg-pattern-desktop.svg") no-repeat center;
-  background-size: cover; }
+  grid-column: 1/2; }
 
 .right {
   grid-column: 3/4; }
+
+.logo {
+  width: 158px;
+  height: 33px;
+  margin-bottom: 136.09px;
+  margin-top: 65.78px; }
 
 /*# sourceMappingURL=main.css.map */
