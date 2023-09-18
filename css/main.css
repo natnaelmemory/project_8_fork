@@ -1,0 +1,83 @@
+.main-heading, .intro {
+  width: 444px; }
+
+html {
+  box-sizing: border-box; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+body {
+  width: 1451.5px;
+  height: 800px;
+  background: url("/images/bg-pattern-desktop.svg") no-repeat center;
+  background-position-x: 0px; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  max-width: fit-content;
+                       /*I don't know why this worked, in getting rid of the extra
+space between the image and the right border*/
+  display: grid;
+  grid-template-columns: 445px 220px 610px;
+  grid-template-rows: 800px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 11.5px;
+  padding-left: 0;
+  margin-left: 165px; }
+
+.main {
+  width: 445px;
+  height: 404px; }
+
+.main-heading {
+  height: 192px;
+  margin-bottom: 32px; }
+
+.intro {
+  height: 84px;
+  margin-bottom: 40px; }
+
+.input-space {
+  width: 345px;
+  height: 56px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 32px;
+  border-radius: 28px; }
+
+.arrow-container {
+  width: 100px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: pink;
+  margin-left: 345px;
+  margin-top: -56px;
+  padding-left: 46px;
+  padding-right: 45.16px;
+  padding-top: 19px;
+  padding-bottom: 19.33px; }
+
+.left {
+  grid-column: 1/2; }
+
+.right {
+  grid-column: 3/4; }
+
+.logo {
+  width: 158px;
+  height: 33px;
+  margin-bottom: 136.09px;
+  margin-top: 65.78px; }
+
+.arrow {
+  background-color: pink;
+  width: 8.836px;
+  height: 17.671px; }
+
+/*# sourceMappingURL=main.css.map */
