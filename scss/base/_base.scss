@@ -9,6 +9,10 @@ html{
 body{
     width: 1451.5px;
     height:800px;
-    padding-left: 165px;
-    
+    background: url('/images/bg-pattern-desktop.svg') no-repeat center;
+    background-position-x: 0px;
+
+}
+img{
+    max-width: 100%;
 }
