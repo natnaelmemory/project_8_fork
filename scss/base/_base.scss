@@ -1,0 +1,19 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+body{
+    max-width:375px;
+    height:800px;
+}
+main{
+    width:311px;
+    height:310px;
+}
+img{
+    width:100%;
+}

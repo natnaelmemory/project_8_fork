@@ -1,0 +1,56 @@
+.logo-img{
+    width:100px;
+    height: 20.89px;
+    @include allMargin(31px,243px,32.11px,32px);
+}
+
+.hero-img{
+    width:376px;
+    height:250px;
+    margin-bottom:64px;
+    margin-left: 1px;
+}
+
+.main-heading{
+    width: 311px;
+    height:126px;
+    text-align: center;
+    @include allMargin(0px ,32px, 16px, 32px);
+}
+.intro{
+    text-align: center;
+    width:311px;
+    height:88px;
+    @include allMargin(0px,32px,32px,32px);
+}
+.arrow-box{
+    width: 64px;
+    height: 48px;
+    border-radius: 28px;
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    box-shadow: 0px 15px 20px 0px rgba(198, 110, 110, 0.25);
+    @include allMargin(-48px,0px,0px,279px);
+    position:absolute;
+    left: 0px;
+}
+
+.input-field{
+    width: 311px;
+    height: 48px;
+    border-radius: 28px;
+    border: 1px solid #CE9898;
+    opacity: 0.5;
+    @include allMargin(0px, 96px, 0px, 32px);
+    @include allPadding(11px, 132px,9px, 19px);
+    //9px because the line height is removed
+    position: relative;
+   
+}
+
+::placeholder{  //the correct way to access the placeholder
+  
+    width: 91px;
+    height:28px;
+   
+    
+}

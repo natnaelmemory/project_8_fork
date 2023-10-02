@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box; }
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+body {
+  max-width: 375px;
+  height: 800px; }
+
+main {
+  width: 311px;
+  height: 310px; }
+
+img {
+  width: 100%; }
+
+.logo-img {
+  width: 100px;
+  height: 20.89px;
+  margin-top: 31px;
+  margin-right: 243px;
+  margin-bottom: 32.11px;
+  margin-left: 32px; }
+
+.hero-img {
+  width: 376px;
+  height: 250px;
+  margin-bottom: 64px;
+  margin-left: 1px; }
+
+.main-heading {
+  width: 311px;
+  height: 126px;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 32px;
+  margin-bottom: 16px;
+  margin-left: 32px; }
+
+.intro {
+  text-align: center;
+  width: 311px;
+  height: 88px;
+  margin-top: 0px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  margin-left: 32px; }
+
+.arrow-box {
+  width: 64px;
+  height: 48px;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+  box-shadow: 0px 15px 20px 0px rgba(198, 110, 110, 0.25);
+  margin-top: -48px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 279px;
+  position: absolute;
+  left: 0px; }
+
+.input-field {
+  width: 311px;
+  height: 48px;
+  border-radius: 28px;
+  border: 1px solid #CE9898;
+  opacity: 0.5;
+  margin-top: 0px;
+  margin-right: 96px;
+  margin-bottom: 0px;
+  margin-left: 32px;
+  padding-top: 11px;
+  padding-right: 132px;
+  padding-bottom: 9px;
+  padding-left: 19px;
+  position: relative; }
+
+::placeholder {
+  width: 91px;
+  height: 28px; }
+
+.arrow-img {
+  width: 8.84px;
+  height: 17.67px;
+  margin-top: 15px;
+  margin-right: 27.16px;
+  margin-bottom: 15.33px;
+  margin-left: 28px; }
+
+/*# sourceMappingURL=main.css.map */
